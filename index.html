@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pip vs 10 Towers</title>
+    <meta name="description" content="Official support and privacy information for Pip vs 10 Towers, a one-thumb tactical puzzle roguelite with five free towers, no ads, and an optional Full Adventure unlock.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/app-icon.png">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="Pip vs 10 Towers home">
+          <img src="assets/app-icon.png" alt="">
+          <span>Pip vs 10 Towers</span>
+        </a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="support.html">Support</a>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="home-title">
+          <div class="hero-inner">
+            <div class="hero-copy-panel">
+              <p class="eyebrow">One step. One choice. One tiny hero.</p>
+              <h1 id="home-title">Pip vs 10 Towers</h1>
+              <p class="hero-copy">
+                A portrait tactical puzzle roguelite for iPhone. Play the first five towers and basic Daily free with no ads, then unlock the full ten-tower adventure when Pip is ready.
+              </p>
+              <div class="actions">
+                <a class="button primary" href="support.html">Get Support</a>
+                <a class="button" href="privacy.html">Read Privacy Policy</a>
+              </div>
+            </div>
+            <figure class="intro-device" aria-label="Pip vs 10 Towers intro video">
+              <div class="phone-frame">
+                <video class="intro-video" muted loop playsinline preload="metadata" poster="assets/intro-poster.jpg">
+                  <source src="assets/intro-loop.mp4" type="video/mp4">
+                </video>
+              </div>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="content">
+            <h2>Player Support</h2>
+            <p class="lead">
+              Need help with a crash, progress issue, visual bug, audio setting, or App Store review question? The support page has troubleshooting steps and a contact path.
+            </p>
+            <div class="grid">
+              <article class="card">
+                <h3>Support URL</h3>
+                <p>Use this website's <a href="support.html">support page</a> as the App Store Connect support URL after deployment.</p>
+              </article>
+              <article class="card">
+                <h3>Privacy URL</h3>
+                <p>Use this website's <a href="privacy.html">privacy page</a> as the App Store Connect privacy policy URL after deployment.</p>
+              </article>
+              <article class="card">
+                <h3>Terms URL</h3>
+                <p>Use this website's <a href="terms.html">terms page</a> as the App Store Connect EULA or terms URL after deployment.</p>
+              </article>
+              <article class="card">
+                <h3>Current Data Posture</h3>
+                <p>No account, no ads, no third-party ad tracking. The app uses local saves, Firebase Analytics, Firebase Crashlytics, and one optional StoreKit Full Adventure unlock.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt">
+          <div class="content">
+            <h2>About The Game</h2>
+            <p class="lead">
+              Pip is a small apprentice keeper caught inside a tower shuffle. Every room is a readable little tactical puzzle: pick a route, grab the right tile, beat the objective, and step through the exit. Boss rooms raise the stakes with tower-specific tricks like clones, lane attacks, jumping threats, and danger zones.
+            </p>
+            <div class="grid two">
+              <article class="card">
+                <h3>Fair And Fast</h3>
+                <p>Runs are built around short rooms, visible consequences, and power-ups that make old tiles feel new without asking players to log in or grind online systems.</p>
+              </article>
+              <article class="card">
+                <h3>Bosses Fight Back</h3>
+                <p>Each tower boss changes the puzzle: some chase Pip, some split into copies, some mark the floor, and some punish greedy routes.</p>
+              </article>
+              <article class="card">
+                <h3>Fair Free Start</h3>
+                <p>The first five towers and basic Daily Challenge are free. Full Adventure is a one-time unlock for towers 6-10, Hard Daily, and the ending.</p>
+              </article>
+              <article class="card">
+                <h3>Built For iPhone</h3>
+                <p>The game is portrait-first, one-thumb friendly, and includes sound, haptics, reduced motion, and high-contrast settings.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-inner">
+          <span>Copyright 2026 Pip vs 10 Towers.</span>
+          <span><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const introVideo = document.querySelector(".intro-video");
+      introVideo?.play().catch(() => {});
+    </script>
+  </body>
+</html>
